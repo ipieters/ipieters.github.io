@@ -23,29 +23,33 @@ body {
     align-items: center;
     grid-gap: 50px
 }
-
-.item-left {
+   
+.item p {
     background-color: #693B95;
-    
-    text-align: center;
-    margin: 10px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: -5px;
     font-family: 'Roboto', sans-serif;
     font-size: 20px;
-
-}
-
-.item-right {
-    justify-self: center;
-    background-color: #693B95;
     text-align: center;
-    margin: 10px;
-    font-size: 20px;
-
 }
+
+.item {
+    
+    justify-self: center;
+    margin-top: 10px;
+}
+
 
 .items img {
     max-width: 800px;
     max-height: 450px;
+    
+}
+
+.item:hover {
+    opacity: 0.8;
+    color: #00A0C6;
 }
 
 .nav{
@@ -72,4 +76,9 @@ body {
     text-decoration:none; 
     cursor:pointer;  
 }
+
+.active a {
+    color:#00A0C6; 
+}
+
 
