@@ -51,6 +51,10 @@ body {
     opacity: 0.8;
     color: #00A0C6;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 .nav{
     background-color: #693B95;
